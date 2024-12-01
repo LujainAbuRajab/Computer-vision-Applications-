@@ -1,4 +1,4 @@
-# Computer Vision Applications: Edge Detection, Object Detection and Segmentation 
+# :pushpin: Computer Vision Applications: Edge Detection, Object Detection and Segmentation 
 
 This repository contains three separate Python projects that demonstrate various object detection techniques using Canny Edge Detection and YOLO models for object detection and segmentation.
 
