@@ -1,29 +1,3 @@
-# import numpy as np
-# import cv2
-
-# #to tell that the video that i wanna process are coming through the labtob camera
-# video = cv2.VideoCapture(0)
-# #as long as the camera are open-> read from it
-# while True:
-#     _, frame = video.read()
-#     #cose we are doing an edge ditection, is better to conver it to gray
-#     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-#     # we ganna use "canny" edge ditection 
-#     edges = cv2.Canny(gray,100,200)
-
-#     #to marge the frame(in 3d) and the edges(in 2d) we conver the edges to RGB to make it channels
-#     edges_3d = cv2.cvtColor(edges, cv2.COLOR_GRAY2RGB)
-#     combined = np.hstack((frame,edges_3d))
-#     cv2.imshow('video, edges', combined)
-
-#     #to make it stop at some point
-#     if cv2.waitKey(1) & 0xFF == ord('q'):
-#         break
-
-#     video.release()
-#     cv2.destroyAllWindows()
-
-
 import numpy as np
 import cv2
 
